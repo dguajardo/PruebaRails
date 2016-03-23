@@ -1,9 +1,13 @@
 <div class="jumbotron">
   <h1"I am Batman"h1>
-  
-  <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+  		<form action="demo_form.asp">
+			Superheroe: <input type="text" name="superheroe" value="Mickey"><br>
+			Email: 		<input type="email" name="email" value=""><br>
+			<input type="submit" value="Submit">
+		</form>
+
+		<%= image_tag "batman", size: '250x250', style: 'margin-right:80px' %>
+
+		<%= javascript_include_tag 'backstretch', 'data-turbolinks-track' => true %>
+ 
 </div>
-
-<%= image_tag "batman", size: '250x250', style: 'margin-right:80px' %>
-
-<%= javascript_include_tag 'backstretch', 'data-turbolinks-track' => true %>
