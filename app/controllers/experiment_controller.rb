@@ -1,14 +1,14 @@
 class ExperimentController < ApplicationController
 
-	def page1
+	def pag1
 	
 	end
 
-	def page2
+	def pag2
 	
 	end
 
-	def page3
+	def pag3
 	
 	end
 end

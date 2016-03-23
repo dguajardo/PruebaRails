@@ -8,4 +8,9 @@ Rails.application.routes.draw do
  
   get 'pages/batman_vs_superman'
 
+  get 'experiment/pag1'
+
+  get 'experiment/pag2'
+
+  get 'experiment/pag3'
 end
